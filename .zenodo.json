@@ -1,0 +1,8 @@
+{
+  "title": "Theta-Phi coordinate research",
+  "upload_type": "software",
+  "description": "Exploratory repository for future Theta-Phi coordinate research. Repository setup only; no verified mathematical result, novelty, or Riemann-hypothesis consequence is established. Daniel Fredriksen is the repository maintainer; the initiating proposal was supplied by Grant. The original proposal is excluded pending a separate public redistribution rights decision. Archival publication and reuse-license selection remain pending.",
+  "creators": [{"name": "Fredriksen, Daniel"}],
+  "keywords": ["coordinate geometry", "exploratory mathematics"],
+  "related_identifiers": [{"identifier": "https://github.com/Quantyra/theta-phi", "relation": "isSupplementTo"}]
+}

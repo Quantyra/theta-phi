@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Cite this exploratory repository using its URL until a verified DOI is available."
+type: software
+title: "Theta-Phi coordinate research"
+authors:
+  - family-names: Fredriksen
+    given-names: Daniel
+repository-code: "https://github.com/Quantyra/theta-phi"
+url: "https://github.com/Quantyra/theta-phi"
+abstract: "Exploratory repository for future Theta-Phi coordinate research. Repository setup only; no verified mathematical result, novelty, or Riemann-hypothesis consequence is established. Daniel Fredriksen is the repository maintainer; the initiating proposal was supplied by Grant."
+keywords:
+  - coordinate geometry
+  - exploratory mathematics
