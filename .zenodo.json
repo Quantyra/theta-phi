@@ -1,8 +1,8 @@
 {
   "title": "Theta-Phi coordinate research",
   "upload_type": "software",
-  "description": "Exploratory repository for future Theta-Phi coordinate research. Repository setup only; no verified mathematical result, novelty, or Riemann-hypothesis consequence is established. Daniel Fredriksen is the repository maintainer; the initiating proposal was supplied by Grant. The original proposal is excluded pending a separate public redistribution rights decision. Archival publication and reuse-license selection remain pending.",
-  "creators": [{"name": "Fredriksen, Daniel"}],
+  "description": "Exploratory Theta-Phi coordinate research by Grant Boudreaux (first author) and Daniel Fredriksen (second author), beginning with Grant Boudreaux's proposal. Repository setup only; no verified mathematical result, novelty, or Riemann-hypothesis consequence is established. Planned verification uses LLM review and Lean certification under the Quantyra process; neither has been completed. The collaboration requires a public implementation repository. The original proposal remains private pending a source-sharing decision; reuse licensing and archival publication remain pending.",
+  "creators": [{"name": "Boudreaux, Grant"}, {"name": "Fredriksen, Daniel"}],
   "keywords": ["coordinate geometry", "exploratory mathematics"],
   "related_identifiers": [{"identifier": "https://github.com/Quantyra/theta-phi", "relation": "isSupplementTo"}]
 }

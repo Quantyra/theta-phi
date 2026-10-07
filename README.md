@@ -1,6 +1,6 @@
 # Theta-Phi coordinate research
 
-Exploratory mathematics project hosted by Quantyra, beginning with a coordinate proposal supplied by Grant. Dan is the Chief Scientist. This repository is the designated destination for future derivations, experiments, software, and manuscripts.
+Exploratory mathematics project hosted by Quantyra, beginning with Grant Boudreaux's coordinate proposal. Grant Boudreaux is first author; Daniel Fredriksen is second author and Chief Scientist. The collaboration requires this implementation repository to remain public. It is the designated destination for future derivations, experiments, software, and manuscripts.
 
 Research has not started. No verified mathematical result, novelty determination, holomorphic interpretation, or consequence for the Riemann hypothesis is established.
 
@@ -10,9 +10,11 @@ The original proposal and private intake correspondence are retained in the priv
 
 ## Citation and archiving
 
-[CITATION.cff](CITATION.cff) and [.zenodo.json](.zenodo.json) describe this exploratory repository. Zenodo integration is enabled, with an active GitHub release webhook verified on 2026-10-07. No DOI has been minted or reserved. Citation metadata identifies the repository maintainer, not authorship of Grant's proposal.
+[CITATION.cff](CITATION.cff) and [.zenodo.json](.zenodo.json) record Grant Boudreaux first and Daniel Fredriksen second, as directed by the Chief Scientist. Zenodo integration is enabled, with an active GitHub release webhook verified on 2026-10-07. No DOI has been minted or reserved.
 
 See [archiving status](docs/archiving.md) and [evidence boundaries](INTEGRITY.md). Future research releases require a recorded publication readiness decision over the exact candidate commit.
+
+Verification will use LLM review and Lean certification under the Quantyra process. Review assesses the argument, assumptions and claims; Lean certification checks the exact formal statements and dependencies. Neither review nor certification has yet been completed.
 
 ## Rights
 

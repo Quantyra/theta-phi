@@ -3,11 +3,13 @@ message: "Cite this exploratory repository using its URL until a verified DOI is
 type: software
 title: "Theta-Phi coordinate research"
 authors:
+  - family-names: Boudreaux
+    given-names: Grant
   - family-names: Fredriksen
     given-names: Daniel
 repository-code: "https://github.com/Quantyra/theta-phi"
 url: "https://github.com/Quantyra/theta-phi"
-abstract: "Exploratory repository for future Theta-Phi coordinate research. Repository setup only; no verified mathematical result, novelty, or Riemann-hypothesis consequence is established. Daniel Fredriksen is the repository maintainer; the initiating proposal was supplied by Grant."
+abstract: "Exploratory Theta-Phi coordinate research by Grant Boudreaux (first author) and Daniel Fredriksen (second author), beginning with Grant Boudreaux's proposal. Repository setup only; no verified mathematical result, novelty, or Riemann-hypothesis consequence is established. Planned verification uses LLM review and Lean certification under the Quantyra process; neither has been completed."
 keywords:
   - coordinate geometry
   - exploratory mathematics
