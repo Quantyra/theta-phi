@@ -10,7 +10,7 @@ The original proposal and private intake correspondence are retained in the priv
 
 ## Citation and archiving
 
-[CITATION.cff](CITATION.cff) and [.zenodo.json](.zenodo.json) describe this exploratory repository. A Zenodo connection and DOI are pending; no DOI has been minted or reserved. Citation metadata identifies the repository maintainer, not authorship of Grant's proposal.
+[CITATION.cff](CITATION.cff) and [.zenodo.json](.zenodo.json) describe this exploratory repository. Zenodo integration is enabled, with an active GitHub release webhook verified on 2026-10-07. No DOI has been minted or reserved. Citation metadata identifies the repository maintainer, not authorship of Grant's proposal.
 
 See [archiving status](docs/archiving.md) and [evidence boundaries](INTEGRITY.md). Future research releases require a recorded publication readiness decision over the exact candidate commit.
 
