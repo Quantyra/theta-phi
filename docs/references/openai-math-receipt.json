@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "ingested_on": "2026-10-07",
+  "upstream": "https://github.com/openai/math",
+  "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "upstream_committed_at": "2026-10-06T21:58:50Z",
+  "license": "Apache-2.0",
+  "reference_path": "references/openai-math",
+  "checkout_mode": "shallow partial Git clone with sparse selected documents; complete source tree pinned, unmaterialized artifacts available on demand",
+  "claimed_catalogue": {
+    "manuscripts": 722,
+    "families": 372
+  },
+  "counted_catalogue": {
+    "family_headings": 372,
+    "distinct_linked_manuscript_pdfs": 721
+  },
+  "inspected_files": [
+    {
+      "path": "README.md",
+      "bytes": 4181,
+      "sha256": "1325f8bfc3a4381b1031ec393c8f101dcf23d8d3141a9d07d90b0ea0b1a0ed67",
+      "upstream_bytes": 4131,
+      "upstream_sha256": "af984f110f6583ba57ec1af907dc989bfce86713161e9c8b0543b052a138ff64",
+      "git_blob": "8ac0cb7dbf1f38ad3b7480310d4e1d9482f0cfe8"
+    },
+    {
+      "path": "CONTENTS.md",
+      "bytes": 649540,
+      "sha256": "25d1f9999e0273822a5190859b3ca2baf75b2b17893e960cb942c377611c3620",
+      "upstream_bytes": 640371,
+      "upstream_sha256": "c492802b53fb4c4161e45fc678bb67bd526add72ca2635493a367ff7fb860bf9",
+      "git_blob": "8148d2c9077e611d5665a2ded93da68e5b608f0f"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11558,
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "upstream_bytes": 11357,
+      "upstream_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "overview.tex",
+      "bytes": 323781,
+      "sha256": "4a7a4c24179647bac4bf840f8c1ed3516148fbf8a6323c587a808baf91208f7e",
+      "upstream_bytes": 322922,
+      "upstream_sha256": "98533a7bc976f44970153f036320932655d07488382e858c25bb6c9e1e029789",
+      "git_blob": "fc40ebdcd0fb9db026a2e44bde66f2e469939fd4"
+    },
+    {
+      "path": "lean/README.md",
+      "bytes": 661,
+      "sha256": "ad210d97664774fc64838372ec23d5a5b75c6ccb0d1867e3b33d90a1f57e3055",
+      "upstream_bytes": 650,
+      "upstream_sha256": "292ff9d539f494158dfbf68d989ba85a82782a4343b2fe43088f8fa62525bf1b",
+      "git_blob": "f1ab618366051a4b3683b14ed2a0ac4bb7c620fb"
+    },
+    {
+      "path": "lean/formalization.yaml",
+      "bytes": 75593,
+      "sha256": "20739b2378f60b059069c098a94222151462671c3eab20d4129ef6a85672d5d8",
+      "upstream_bytes": 73925,
+      "upstream_sha256": "2dcbd0d6e6a22475f53d49bfdfcac9b6d2b470653c332a9f56522f5be166edb9",
+      "git_blob": "e0584d4993df01ec08233ab344ebc1b1039bf7f7"
+    },
+    {
+      "path": "lean/docs/003.md",
+      "bytes": 1936,
+      "sha256": "5d599f2c3a95122eef24598b8cc58817e19bf8d6a6b28203d933047999ea1538",
+      "upstream_bytes": 1911,
+      "upstream_sha256": "41e52ed718260e6feb1db218f8e97287e703cb63c6f16e6c36f5563e6e2395ce",
+      "git_blob": "cf794e93da2e1a494434153f5b91f2990fe9fd60"
+    },
+    {
+      "path": "lean/ComparatorChallenges/README.md",
+      "bytes": 297,
+      "sha256": "d466aa814dddbac2cffa71a29bca7ed5239725163a3822c0792832e82f9771a5",
+      "upstream_bytes": 287,
+      "upstream_sha256": "051459a45da1bedd1c0a6585a5b5e5425c7c40a369f2922d7b519e2fd02333b0",
+      "git_blob": "c1ac131559880e759c28caf79905ba4fe6194eb7"
+    },
+    {
+      "path": "lean/ComparatorChallenges/QuasiRiemannHypothesis.lean",
+      "bytes": 178,
+      "sha256": "6b2753c8e3c7c395c75dcdc5e684561da790c4f7bd4afa69c7dec5ebf05e6e94",
+      "upstream_bytes": 169,
+      "upstream_sha256": "065f8c9a01d28db78c8b1bfc5083b535082a2d2aac2230d563f98b8caa812cc5",
+      "git_blob": "e7d1caf6c579dc9afbf0d2b01f79e5cd2511b028"
+    },
+    {
+      "path": "lean/ComparatorChallenges/QuasiRiemannHypothesis.json",
+      "bytes": 367,
+      "sha256": "01087e9d2b2321ac3a11982a035984b57ff2b01c7175997f4658f33c29183b19",
+      "upstream_bytes": 353,
+      "upstream_sha256": "46ebb7edc11f69536210f502b4bcbd36bbaf3f0872c16748b6c8ce43991bf320",
+      "git_blob": "acf552468fc23c1a27d685d33983c58c50040542"
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Nonvanishing.lean",
+      "bytes": 1280,
+      "sha256": "16a7f55147e177e972264a2ac61d1639188a2090844a89d1c080cba8500791cc",
+      "upstream_bytes": 1247,
+      "upstream_sha256": "d98c4a7e074469b429890e1c21b8cc76c410026525a776895293cdc0f9e6ae89",
+      "git_blob": "46c67f4000906b1391a471d6e6396ac0da3c16a5"
+    },
+    {
+      "path": "lean/lean-toolchain",
+      "bytes": 26,
+      "sha256": "8152090414016dd5dc871752f8ce4ecdbd604d9845758e9b9047cb80101280b5",
+      "upstream_bytes": 25,
+      "upstream_sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "git_blob": "ba8ebf2dbaf6a668cd2a0e086186d6d569b69ff5"
+    },
+    {
+      "path": "lean/lakefile.lean",
+      "bytes": 15792,
+      "sha256": "5b656aba2462938df788f5959404db2ea08b74c1ff617f550751973c7e4aa32b",
+      "upstream_bytes": 15457,
+      "upstream_sha256": "4cca977ebece444b6c999d99755c1ad3c93119bafc127ea761f7f703c7279e74",
+      "git_blob": "66c3867331c7c607ffc0e60955cc86cccf046e12"
+    },
+    {
+      "path": "lean/lake-manifest.json",
+      "bytes": 15048,
+      "sha256": "b61e36d7fb579f9eb682afc4623e871934189e1248c4c92e69f9e9e2e6fc0227",
+      "upstream_bytes": 14622,
+      "upstream_sha256": "cf6105a25d9dca2f166b241d9191bd12c7e13305890dc9c4d0952351cccc0794",
+      "git_blob": "67d01d2717d0aaff59fb8814bb53581b961f42b4"
+    }
+  ],
+  "toolchain": "leanprover/lean4:v4.34.1",
+  "mathlib_revision": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "lean_executed": false,
+  "dependencies_installed": false,
+  "claims_accepted": false,
+  "full_corpus_reviewed": false,
+  "hash_basis": "sha256/bytes describe local checkout bytes; upstream_sha256/upstream_bytes and git_blob separately identify original committed bytes"
+}

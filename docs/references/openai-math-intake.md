@@ -1,0 +1,21 @@
+# OpenAI mathematics reference intake
+
+Source: [openai/math](https://github.com/openai/math), pinned at [adc7f1241b42e322a6451854ab7e4b4c146bf78a](https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a), upstream commit dated 2026-10-06T21:58:50Z. Intake date: 2026-10-07. The source is tracked as the Git submodule `references/openai-math`. Its upstream Apache-2.0 licence remains in that repository and does not select a licence for this project's own material.
+
+The local checkout is shallow/partial and sparse: catalogue and checking documentation plus selected family-003 source files are materialized. Other manuscripts, proof dependencies and reasoning summaries are available through the pinned upstream reference; they have not all been downloaded or reviewed. This is source intake and catalogue indexing, not AI training, embeddings, wholesale proof acceptance, or an imported Lake dependency. [Byte-hash receipt](openai-math-receipt.json) records the source documents, toolchain and upstream mathlib revision.
+
+## Collection and verification posture
+
+The upstream README describes manuscripts and supporting artifacts from an internal OpenAI model, explicitly at different verification stages. It reports 722 manuscripts in 372 families and warns that some unformalized results may have issues. Our catalogue parser counted 372 family headings and extracted 721 distinct manuscript PDF links; that limited extraction does not independently establish the total manuscript count. Detailed bibliography reconciliation belongs to later literature review. Document hashes attest source identity, not correctness or complete reading of every catalogue entry.
+
+The Lean documentation points to a formalization catalogue and Comparator checking instructions. The selected source uses Lean v4.34.1, with upstream mathlib pinned to d13f23b723b8a846827a245b89c10fc7d3f11612. These are observed upstream pins; this project has not adopted that toolchain or installed those dependencies. No Lean, Lake, comparator or dependency-download command ran during intake. Future checking must follow the Quantyra execution/review process.
+
+## Bounded relevance
+
+Family 003 is a candidate for a future zeta-literature review. Its catalogue and scope note describe zero-free half-plane claims; those remain upstream claims, independently unchecked here. Their relevance to Grant Boudreaux's Theta-Phi coordinates is unestablished. No coordinate-to-zeta bridge, RH result, novelty finding or mathematical equivalence follows from this intake.
+
+The family-003 Comparator challenge declares the target zeta statement using `sorry`. This is a challenge/specification file, not the supplied solution proof. Its JSON selects solution module `OAI.NumberTheory.DirichletL.Nonvanishing`, names the target theorem and permits propext, Quot.sound and Classical.choice. The inspected solution module delegates to imported final-assembly results; those dependencies have not been audited. The configuration therefore identifies what a future exact-statement/kernel/axiom check must inspect. It is not a local certification receipt.
+
+Source links at the pinned revision: [README](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/README.md), [catalogue](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md), [family-003 scope](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/003.md), [Comparator instructions](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/README.md), [challenge configuration](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/QuasiRiemannHypothesis.json), [selected solution module](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/DirichletL/Nonvanishing.lean). Use manuscript-specific upstream citation instructions if a particular result is later cited.
+
+Remaining: coordinate literature/attribution review and manuscript/dependency checking where relevant; bounded zeta relevance assessment. Intake is complete; no theorem is accepted.
